@@ -16,8 +16,9 @@
         <ul class="menu menu-horizontal text-base">
           <!-- Navbar menu content here -->
 
-          <li><a href="/CreateBlog">+ Create a blog</a></li>
+          <li><a href="/">Home</a></li>
           <li><a href="https://jannyney.github.io/Tawanrat.github.io/">About</a></li>
+          <li><a href="/CreateBlog">Create a blog</a></li>
             <li><div><a class="bg-black hover:bg-black-700 text-white font-bold py-2 px-4 rounded" href="/SignUp">Sign Up</a></div></li>
             <li><div><a class="bg-black hover:bg-black-700 text-white font-bold py-2 px-4 rounded" href="/SignIn">Log In</a></div></li>
         </ul>
@@ -30,10 +31,11 @@
     <label for="my-drawer-3" class="drawer-overlay"></label>
     <ul class="menu p-4 w-80 min-h-full bg-base-200">
       <!-- Sidebar content here -->
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#project">Project/Achievement</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="/">Home</a></li>
+      <li><a href="https://jannyney.github.io/Tawanrat.github.io/">About</a></li>
+      <li><a href="/CreateBlog">Create a blog</a></li>
+      <li><a href="/SignUp">Sign Up</a></li>
+      <li><a href="/SignIn">Sign In</a></li>
 
     </ul>
 
