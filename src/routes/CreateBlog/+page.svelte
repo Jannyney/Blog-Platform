@@ -28,27 +28,21 @@
     }
 </script>
 
-<div class="background h-3/4 pt-10 pb-20" id="get_in_touch">
-  <div id="form" class="pb-10 ">
-    <p class="text-neutral text-5xl font-bold p-20 text-center">Sign Up</p>
+<div class="background h-3/4 " id="get_in_touch">
+  <div id="form" class="pb-10 pt-10">
+    <p class="text-neutral text-4xl font-bold p-20 text-center">Create a blog</p>
     <form>
       <div class="min-w-min mb-6">
-        <input type="text" name="name" id="name" class="bg-gray-50  text-sm rounded-lg  block w-full p-2.5  dark:text-black " placeholder="First Name: " required>
-      </div>
-      <div class="min-w-min mb-6">
-        <input type="text" name="name" id="name" class="bg-gray-50  text-sm rounded-lg  block w-full p-2.5  dark:text-black " placeholder="Last Name: " required>
+        <input type="text" name="name" id="name" class="bg-gray-50  text-sm rounded-lg  block w-full p-2.5  dark:text-black " placeholder="Title: " required>
       </div>
       <div class="mb-6">
-        <input type="email" name="email" id="email" class="bg-gray-50  text-sm rounded-lg  block w-full p-2.5  dark:text-black " placeholder="Email: "required>
+        <input type="email" name="email" id="email" class="bg-gray-50  text-sm rounded-lg  block w-full p-2.5  dark:text-black " placeholder="Description: "required>
       </div>
       <div class="mb-6">
-        <input type="text" name="subject" id="subject" class="bg-gray-50  text-sm rounded-lg  block w-full p-2.5  dark:text-black " placeholder="Password: " required>
-      </div>
-         <div class="mb-6">
-        <input type="text" name="subject" id="subject" class="bg-gray-50  text-sm rounded-lg  block w-full p-2.5  dark:text-black " placeholder="Confirm Password: " required>
+        <textarea id="message" name="message" rows="4" class="bg-gray-50  text-sm rounded-lg  block w-full p-2.5  dark:text-black " placeholder="Message: "></textarea>
       </div>
       <div class="mb-6 flex justify-center">
-        <button type="submit" class="btn btn-accent md:max-w-fit text-white  hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center  dark:hover:bg-accent-focus dark:focus:accent-focus" on:click|preventDefault={contact}>Sign Up</button>
+        <button type="submit" class="btn btn-accent md:max-w-fit text-white  hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center  dark:hover:bg-accent-focus dark:focus:accent-focus" on:click|preventDefault={contact}>Publish</button>
       </div>
     </form>
   </div>

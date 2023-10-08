@@ -1,6 +1,6 @@
 <script>
     let projects = [
-        {name: "GoWithMe Application", desc: "Created a travelling buddy web app using ChatGPT API and frontend framework. This website can guides you to your best travel journey through AI personalization.", link: "", img: "gowithme.png"},
+        {name: "GoWithMe Application", desc: "Created a travelling buddy web app using ChatGPT API and frontend framework. This website can guides you to your best travel journey through AI personalization.", href: "/BlogOne", img: "gowithme.png"},
         {name: "Phytavaren Website", desc: "Wrote a frontend website that shows the company details and contact info", link: "http://phytavaren.co.uk/", img: "phyta.png"},
         {name: "Axer Application", desc: "Designed an AI training exercise application along with implementing a bsuiness model.", link: "", img: "scibox.png"},
         {name: "Catching Things Game", desc: "Created a catching things game using JAVA OOP and GUI concept. The player has to pick all of the food by moving the basket but avoid the bomb at the same time.", link: "https://github.com/Jannyney/CatchingThingsGame", img: "catch.png"},
