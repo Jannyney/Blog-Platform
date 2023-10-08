@@ -17,8 +17,8 @@
           <!-- Navbar menu content here -->
 
           <li><a href="#about">+ Create a blog</a></li>
-            <li><div><a class="bg-black hover:bg-black-700 text-white font-bold py-2 px-4 rounded" href="#footer">Sign Up</a></div></li>
-            <li><div><a class="bg-black hover:bg-black-700 text-white font-bold py-2 px-4 rounded" href="#footer">Log In</a></div></li>
+            <li><div><a class="bg-black hover:bg-black-700 text-white font-bold py-2 px-4 rounded" href="/SignUp">Sign Up</a></div></li>
+            <li><div><a class="bg-black hover:bg-black-700 text-white font-bold py-2 px-4 rounded" href="/SignIn">Log In</a></div></li>
         </ul>
       </div>
     </div>
