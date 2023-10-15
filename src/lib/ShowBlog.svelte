@@ -6,6 +6,7 @@
         {name: "Catching Things Game", desc: "Created a catching things game using JAVA OOP and GUI concept. The player has to pick all of the food by moving the basket but avoid the bomb at the same time.", link: "https://github.com/Jannyney/CatchingThingsGame", img: "catch.png"},
         {name: "Image Captioning in Thai", desc: "Created a web app that can get image inputs and translated into Thai captions using NLP and Computer Vision", link: "https://jannyney.medium.com/%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3-image-captioning-%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B8%84%E0%B8%99%E0%B8%95%E0%B8%B2%E0%B8%9A%E0%B8%AD%E0%B8%94%E0%B8%81%E0%B8%B1%E0%B8%99-51cef2d1d15", img: "imagecap.png"},
         {name: "AR-AI Application for children with Autism", desc: "Created an application that use AI and AR technology to help children with Autism learn better", link: "https://www.matichon.co.th/economy/news_2775594", img: "caicamp.jpg"},
+
     ]
 </script>
 

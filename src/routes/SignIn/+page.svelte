@@ -36,7 +36,7 @@
         <input type="text" name="name" id="name" class="bg-gray-50  text-sm rounded-lg  block w-full p-2.5  dark:text-black " placeholder="Email: " required>
       </div>
       <div class="mb-6">
-        <input type="email" name="email" id="email" class="bg-gray-50  text-sm rounded-lg  block w-full p-2.5  dark:text-black " placeholder="Password: "required>
+        <input type="password" name="email" id="email" class="bg-gray-50  text-sm rounded-lg  block w-full p-2.5  dark:text-black " placeholder="Password: "required>
       </div>
 
       <div class="mb-6 flex justify-center">
