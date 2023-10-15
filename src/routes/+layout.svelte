@@ -1,9 +1,9 @@
 
 <script>
-    import Nav from "$lib/nav.svelte";
+    import Nav from "$lib/Nav.svelte";
 
   import "../app.css";
-  import Footer from "$lib/footer.svelte";
+  import Footer from "$lib/Footer.svelte";
 </script>
 
 <Nav/>

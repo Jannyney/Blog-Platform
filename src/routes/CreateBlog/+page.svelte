@@ -36,7 +36,7 @@
         <input type="text" name="name" id="name" class="bg-gray-50  text-sm rounded-lg  block w-full p-2.5  dark:text-black " placeholder="Title: " required>
       </div>
       <div class="mb-6">
-        <input type="email" name="email" id="email" class="bg-gray-50  text-sm rounded-lg  block w-full p-2.5  dark:text-black " placeholder="Description: "required>
+        <input type="email" name="email" id="email" class="bg-gray-50  text-sm rounded-lg  block w-full p-2.5  dark:text-black " placeholder="Category: "required>
       </div>
       <div class="mb-6">
         <textarea id="message" name="message" rows="4" class="bg-gray-50  text-sm rounded-lg  block w-full p-2.5  dark:text-black " placeholder="Message: "></textarea>
