@@ -1,32 +1,32 @@
-<script lang="ts">
-    import {createEventDispatcher} from "svelte";
-    let dispatch = createEventDispatcher()
-    const validateEmail = (email) => {
-      return String(email)
-        .toLowerCase()
-        .match(
-          /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-        );
-    };
-    async function contact() {
-      var formData = new FormData(document.querySelector('form'))
-      if (formData.get("message") === '' || formData.get("name") === '' || formData.get("subject") === '' || formData.get("email") === '') {
-        alert("Please fill in all the fields");
-      } else {
-        if (validateEmail(formData.get("email"))) {
-          await fetch("/assets/contact_form.php",
-                  {
-                    method: 'post',
-                    body: formData
-                  })
-                  .then((response) => response.json())
-                  .then((data) => dispatch("message", {status: data}));
-        } else {
-          alert("Invalid Email");
-        }
-      }
-    }
-</script>
+<!--<script lang="ts">-->
+<!--    import {createEventDispatcher} from "svelte";-->
+<!--    let dispatch = createEventDispatcher()-->
+<!--    const validateEmail = (email) => {-->
+<!--      return String(email)-->
+<!--        .toLowerCase()-->
+<!--        .match(-->
+<!--          /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/-->
+<!--        );-->
+<!--    };-->
+<!--    async function contact() {-->
+<!--      var formData = new FormData(document.querySelector('form'))-->
+<!--      if (formData.get("message") === '' || formData.get("name") === '' || formData.get("subject") === '' || formData.get("email") === '') {-->
+<!--        alert("Please fill in all the fields");-->
+<!--      } else {-->
+<!--        if (validateEmail(formData.get("email"))) {-->
+<!--          await fetch("/assets/contact_form.php",-->
+<!--                  {-->
+<!--                    method: 'post',-->
+<!--                    body: formData-->
+<!--                  })-->
+<!--                  .then((response) => response.json())-->
+<!--                  .then((data) => dispatch("message", {status: data}));-->
+<!--        } else {-->
+<!--          alert("Invalid Email");-->
+<!--        }-->
+<!--      }-->
+<!--    }-->
+<!--</script>-->
 
 <div class="background h-3/4 pt-10 pb-20" id="get_in_touch">
   <div id="form" class="pb-10 ">
@@ -40,7 +40,7 @@
       </div>
 
       <div class="mb-6 flex justify-center">
-        <button type="submit" class="btn btn-accent md:max-w-fit text-white  hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center  dark:hover:bg-accent-focus dark:focus:accent-focus" on:click|preventDefault={contact}>Log In</button>
+        <button type="submit" class="btn btn-accent md:max-w-fit text-white  hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center  dark:hover:bg-accent-focus dark:focus:accent-focus">Log In</button>
       </div>
     </form>
   </div>
