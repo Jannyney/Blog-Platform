@@ -6,7 +6,7 @@
 { #if data.post}
     <img style="width: 60%; display: block; margin-left: auto; margin-right: auto;" src="{data.post.image}" alt="Blog Image">
     <h1 class="font-bold text-5xl text-center py-10">{data?.post.title}</h1>
-    <div class="text-center text-justify px-56 pt-10 pb-20 text-xl">{ data?.post.content}</div>
+    <div class="text-center text-justify px-56 pt-10 pb-20 text-xl" style="white-space: pre-wrap">{ data?.post.content}</div>
 
     <div class="flex flex-col items-center pb-10">
         <p class="text-neutral text-4xl font-bold pb-10 text-center">Comment</p>
