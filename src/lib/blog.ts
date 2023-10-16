@@ -32,7 +32,7 @@ export function returnBlog(page:string) {
 
 	return {
 		post: {
-			title: "Zero To One: The Book that eveyrone should read",
+			title: "Zero To One: The Book that everyone should read",
 			content: '"Zero to One" is a thought-provoking book authored by Peter Thiel, the co-founder of PayPal and an influential figure in the tech industry. In this book, Thiel explores the concepts and strategies that underlie successful innovation, emphasizing the importance of creating groundbreaking products and services that move from \'zero to one\' as opposed to competing in existing markets (going from \'one to n\').\n' +
 				'\n' +
 				'Thiel argues that true innovation involves creating something entirely new, rather than replicating what already exists. He asserts that monopoly is the ideal state for a successful business and discusses how startups should aim to dominate a niche market before expanding. He provides insights into the importance of technology, the value of unique thinking, and the significance of building a strong company culture.\n' +
@@ -92,58 +92,5 @@ export function returnBlog(page:string) {
 		},
 	};
 	}
-	else if (page === "onep"){
 
-	return {
-		post: {
-			title: "blog two",
-			content: 'I am blog two content'
-		},
-	};
-	}
-	else if (page === "twop"){
-
-	return {
-		post: {
-			title: "blog two",
-			content: 'I am blog two content'
-		},
-	};
-	}
-	else if (page === "fourp"){
-
-	return {
-		post: {
-			title: "blog two",
-			content: 'I am blog two content'
-		},
-	};
-	}
-	else if (page === "fivep"){
-
-	return {
-		post: {
-			title: "blog two",
-			content: 'I am blog two content'
-		},
-	};
-	}
-	else if (page === "sixp"){
-
-	return {
-		post: {
-			title: "blog two",
-			content: 'I am blog two content'
-		},
-	};
-	}
-	else if (page === "two"){
-
-	return {
-		post: {
-			title: "blog two",
-			content: 'I am blog two content'
-		},
-	};
-	}
 }

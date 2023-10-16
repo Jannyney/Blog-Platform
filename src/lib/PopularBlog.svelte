@@ -14,7 +14,7 @@
           <div class="card-body">
             <h2 class="card-title">{returnBlog(project)?.post.title}</h2>
            <div class="card-actions justify-end">
-              <a href="/blog/{project}" class="btn btn-primary">Learn More</a>
+              <a href="/blog/{project}" class="btn btn-primary">Read More</a>
             </div>
           </div>
         </div>

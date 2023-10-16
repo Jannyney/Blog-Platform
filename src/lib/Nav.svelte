@@ -32,7 +32,7 @@
           <li class="justify-center"><a href="https://jannyney.github.io/Tawanrat.github.io/">About</a></li>
           <li class="justify-center"><a href="/CreateBlog">Create a blog</a></li>
           <li class="justify-center pr-5"><a class="bg-black hover:bg-black-700 text-white font-bold py-2 px-4 rounded" href="/SignUp">Sign Up</a></li>
-          <li class="justify-center"><a class="bg-black hover:bg-black-700 text-white font-bold py-2 px-4 rounded" href="/SignIn">Log In</a></li>
+          <li class="justify-center pr-5"><a class="bg-black hover:bg-black-700 text-white font-bold py-2 px-4 rounded" href="/SignIn">Log In</a></li>
 
           <button data-toggle-theme="night,cupcake" on:click={() => {darkmode =! darkmode}}>
             <!-- this hidden checkbox controls the state -->

@@ -29,7 +29,7 @@
 <!--</script>-->
 
 <div class="background h-3/4 " id="get_in_touch">
-  <div id="form" class="pb-10 pt-10">
+  <div id="form" class="pb-52 pt-10">
     <p class="text-neutral text-4xl font-bold p-20 text-center">Create a blog</p>
     <form>
       <div class="min-w-min mb-6">
